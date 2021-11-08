@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Yanone+Kaffeesatz&display=swap');
+
+
+*{
+    padding: 0%;
+  margin: 0%;
+  font-family: sans-serif;
+
+
+  
+}
+.fut{
+    background-color: rgb(238, 73, 51);
+   
+}
+.bad{
+   display: flex;
+   justify-content: center;
+   width:100%;
+   
+}
+.guy{
+    width: 80%;
+    
+    height: 100px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.don{
+    cursor: pointer;
+    font-family: 'Fruktur', cursive;
+    font-weight: 900;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 20px;
+}
+.don:hover{
+    color: rgb(240, 238, 238);
+    transition: .3s;
+}
+.tin{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+
+}
+.janu{
+    margin-top: 40px;
+
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 20px
+}
+.janu:hover{
+  color: rgb(24, 197, 240);
+  transition: .3s;
+}
+@media (max-width:470px) {
+
+    .guy{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .janu{
+        margin-right: 13px;
+        font-size: 18px;
+    }
+}
+.bag{
+    font-family: 'Fruktur', cursive;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 80px;
+    margin-top:50px;
+    color: #fff;
+}
+.sold{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.sell{
+    width: 80%;
+    display: flex;
+    
+
+
+}
+.sol{
+    width: 50%;
+    padding-top: 180px;
+
+}
+.bold{
+    font-size: 18px;
+    color: #fff;
+
+}
+.arsham{
+    font-size: 17px;
+    line-height: 30px;
+    color: #fff;
+    margin-top: 30px;
+}
+.hight{
+    margin-top: 50px;
+    height: 50px;
+    width: 140px;
+    cursor: pointer;
+    color: rgb(238, 73, 51);
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+}
+.hight:hover{
+    width: 150px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 30px;
+    color: #fff;
+    transition: .3s;
+}
+.folt{
+    width: 50%;
+    padding-top: 150px;
+}
+.yarn{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+
+}
+@media (max-width:900px) {
+  .yarn{
+      width: 100%;
+      margin-left: 0;
+  }
+  .folt{
+      padding-top: 200px;
+  }
+    
+}
+@media (max-width:750px){
+    .sell{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sol{
+        width: 100%;
+        text-align:center ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+} 
